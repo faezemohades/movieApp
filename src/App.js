@@ -11,7 +11,7 @@ function App() {
     <div className="app">
       <BrowserRouter>
         <Header />
-        <div classname="container">
+        <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/movie/:imdbID" element={<MovieDetails />} />
